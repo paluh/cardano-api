@@ -202,7 +202,7 @@ library internal
                       , ouroboros-network-framework
                       , ouroboros-network-protocols
                       , parsec
-                      , plutus-ledger-api:{plutus-ledger-api, plutus-ledger-api-testlib} ^>= 1.29.0
+                      , plutus-ledger-api:{plutus-ledger-api, plutus-ledger-api-testlib} ^>= 1.30.0
                       , prettyprinter
                       , prettyprinter-ansi-terminal
                       , prettyprinter-configurable ^>= 1.28.0
@@ -378,8 +378,8 @@ test-suite cardano-api-golden
                       , hedgehog-extras ^>= 0.6.1.0
                       , microlens
                       , parsec
-                      , plutus-core ^>= 1.29.0
-                      , plutus-ledger-api ^>= 1.29.0
+                      , plutus-core ^>= 1.30.0
+                      , plutus-ledger-api ^>= 1.30.0
                       , tasty
                       , tasty-hedgehog
                       , time
